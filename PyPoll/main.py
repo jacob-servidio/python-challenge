@@ -61,3 +61,21 @@ print(f"O'tooley: {otooley_percent:.3%}({otooley_votes})")
 print(f"---------------------------------")
 print(f"WINNER: {winner_name}")
 print(f"---------------------------------")
+
+#file to write analysis to
+output_file = os.path.join('..', 'PyPoll', 'analysis', 'poll_results.txt')
+
+with open(output_file, 'w',) as txtfile:
+
+    #Write poll results
+    txtfile.write(f"Election Results\n")
+    txtfile.write(f"---------------------------\n")
+    txtfile.write(f"Total Votes: {total_votes}\n")
+    txtfile.write(f"---------------------------\n")
+    txtfile.write(f"Kahn: {khan_percent:.3%}({khan_votes})\n")
+    txtfile.write(f"Correy: {correy_percent:.3%}({correy_votes})\n")
+    txtfile.write(f"Li: {li_percent:.3%}({li_votes})\n")
+    txtfile.write(f"O'tooley: {otooley_percent:.3%}({otooley_votes})\n")
+    txtfile.write(f"----------------------------\n")
+    txtfile.write(f"WINNER: {winner_name}")
+    txtfile.write(f"----------------------------\n")

@@ -77,5 +77,5 @@ with open(output_file, 'w',) as txtfile:
     txtfile.write(f"Li: {li_percent:.3%}({li_votes})\n")
     txtfile.write(f"O'tooley: {otooley_percent:.3%}({otooley_votes})\n")
     txtfile.write(f"----------------------------\n")
-    txtfile.write(f"WINNER: {winner_name}")
+    txtfile.write(f"WINNER: {winner_name}\n")
     txtfile.write(f"----------------------------\n")

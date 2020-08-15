@@ -57,3 +57,6 @@ The SSN data re-written such that the first five numbers are hidden from view.
 The State data  re-written as simple two-letter abbreviations.
 
 The Formatted CSV can be found in the Analysis folder.
+
+---------------------------
+When making my last push for the PyBoss assignment, I believe created a branch for the push from my PyPoll branch which resulted in some confusing commits. In the future I will ensure that all new branches for additional assignments will be made from the master branch of the assignment to further avoid this confusion. 
